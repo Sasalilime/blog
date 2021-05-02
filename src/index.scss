@@ -9,6 +9,9 @@
   .sidebar {
     flex: 0 0 25rem;
     padding: 0 2rem 2rem 2rem;
+    @include xs {
+      display: none;
+    }
     select {
       width: 100%;
       margin-bottom: 2rem;
